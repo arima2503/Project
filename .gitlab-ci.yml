@@ -39,7 +39,7 @@ deploy-job:
   stage: deploy
   image: node:24.4.1
   script:
-    - echo "Deploying to production..."
+    - echo "Deploying to production22..."
   environment:
     name: production
     url: https://your-production-url.com
